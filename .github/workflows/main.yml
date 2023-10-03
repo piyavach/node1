@@ -13,4 +13,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Print
-      run: cat main.html
+      run: echo "test"
