@@ -1,3 +1,8 @@
 const { helloworld } = require("./Utils");
 
-console.log(1);
+if(helloworld() === "helloworld")
+{
+    console.log(0);
+}else{
+    console.log(1);
+}
