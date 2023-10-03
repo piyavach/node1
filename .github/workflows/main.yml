@@ -3,7 +3,7 @@ name: Print Text from hellome.html
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   print-text:
     runs-on: ubuntu-latest
