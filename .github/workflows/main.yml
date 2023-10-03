@@ -17,9 +17,6 @@ jobs:
       with:
         node-version: '14'
 
-    - name: install
-      run: npm install express
-      
-    - name: run node server.js
-      run: node server.js
+    - name: functional test
+      run: node test_function.js
 
