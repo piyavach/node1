@@ -17,5 +17,5 @@ jobs:
       with:
         node-version: '14'
     - name: run node server.js
-      runs: node server.js
+      run: node server.js
 
