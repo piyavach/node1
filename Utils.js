@@ -1,5 +1,9 @@
 function helloworld(){
-    return "hello worl";
+    return "hello world";
 }
 
-module.exports = {helloworld};
+function one_plus(x){
+    return 1+x;
+}
+
+module.exports = {helloworld,one_plus};
