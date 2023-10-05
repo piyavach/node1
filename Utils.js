@@ -3,7 +3,7 @@ function helloworld(){
 }
 
 function one_plus(x){
-    return 2+x;
+    return 1+x;
 }
 
 module.exports = {helloworld,one_plus};
